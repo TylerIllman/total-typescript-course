@@ -1,6 +1,7 @@
 import { expect, it } from "vitest";
+import { number } from "zod";
 
-export const addTwoNumbers = (params) => {
+export const addTwoNumbers = (params: {first: number; second: number}) => {
   return params.first + params.second;
 };
 
