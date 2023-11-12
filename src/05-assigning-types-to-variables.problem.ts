@@ -4,11 +4,7 @@ interface User {
   id: number;
   firstName: string;
   lastName: string;
-<<<<<<< HEAD
-  isAdmin: "admin" | "user" | "super-admin";
-=======
   isAdmin: boolean;
->>>>>>> 054f6824196fc66aabdb5e70ee26520e7f776a58
 }
 
 /**

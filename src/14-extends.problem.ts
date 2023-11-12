@@ -10,7 +10,6 @@ interface Base {
   id: string;
 }
 
-
 interface User extends Base {
   firstName: string;
   lastName: string;
